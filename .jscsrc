@@ -1,0 +1,8 @@
+{
+	"preset": "node-style-guide",
+	"requireCurlyBraces": null,
+	"maximumLineLength": null,
+	"requireCapitalizedComments": null,
+	"disallowSpacesInFunction": null,
+	"requireTrailingComma": null
+}
