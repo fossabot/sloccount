@@ -12,7 +12,8 @@
     "lint": "eslint ./*.js && jscs ./*.js",
     "pretest": "npm run lint",
     "precommit": "npm test",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
+    "report-coverage": "cat ./coverage/lcov.info | codecov"
   },
   "repository": {
     "type": "git",
@@ -35,6 +36,7 @@
     "sloc": "0.1.10"
   },
   "devDependencies": {
+    "codecov.io": "0.1.6",
     "commitizen": "2.7.2",
     "cz-conventional-changelog": "1.1.5",
     "eslint": "2.4.0",
@@ -44,9 +46,9 @@
     "istanbul": "0.4.2",
     "jscs": "2.11.0",
     "rimraf": "2.5.2",
+    "semantic-release": "^4.3.5",
     "standard": "6.0.8",
-    "tape": "4.5.1",
-    "semantic-release": "^4.3.5"
+    "tape": "4.5.1"
   },
   "config": {
     "commitizen": {
