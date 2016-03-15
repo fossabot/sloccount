@@ -4,9 +4,9 @@ Counts lines of code of HTML, CSS &amp; JS - Outputs them in a Jenkins compatibl
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
-[![version](https://img.shields.io/npm/v/starwars-names.svg?style=flat-square)](http://npm.im/starwars-names)
-[![downloads](https://img.shields.io/npm/dm/starwars-names.svg?style=flat-square)](http://npm-stat.com/charts.html?package=starwars-names&from=2015-08-01)
-[![MIT License](https://img.shields.io/npm/l/starwars-names.svg?style=flat-square)](http://opensource.org/licenses/MIT)
+[![version](https://img.shields.io/npm/v/sloccount.svg?style=flat-square)](http://npm.im/sloccount)
+[![downloads](https://img.shields.io/npm/dm/ssloccount.svg?style=flat-square)](http://npm-stat.com/charts.html?package=sloccount&from=2016-01-01)
+[![MIT License](https://img.shields.io/npm/l/sloccount.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 
 [![Build Status](https://travis-ci.org/asciidisco/sloccount.svg?branch=master)](https://travis-ci.org/asciidisco/sloccount)
 [![codecov coverage](https://img.shields.io/codecov/c/github/kentcdodds/starwars-names.svg?style=flat-square)](https://codecov.io/github/kentcdodds/starwars-names)
