@@ -13,7 +13,8 @@
     "pretest": "npm run lint",
     "precommit": "npm test",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
-    "report-coverage": "cat ./coverage/lcov.info | codecov"
+    "report-coverage": "cat ./coverage/lcov.info | codecov",
+    "commitmsg": "validate-commit-msg $1"
   },
   "repository": {
     "type": "git",
@@ -46,9 +47,10 @@
     "istanbul": "0.4.2",
     "jscs": "2.11.0",
     "rimraf": "2.5.2",
-    "semantic-release": "^4.3.5",
+    "semantic-release": "4.3.5",
     "standard": "6.0.8",
-    "tape": "4.5.1"
+    "tape": "4.5.1",
+    "validate-commit-message": "3.0.1"
   },
   "config": {
     "commitizen": {
